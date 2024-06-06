@@ -1,0 +1,228 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+img.navbar-brand {
+  height: 120px;
+  width: 120px;
+}
+
+#contact {
+  align-items: center;
+}
+
+div#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+div#contact>div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+}
+
+div#contact>div>p {
+  color: whitesmoke;
+  padding-left: 10px;
+}
+
+div#contact>div>img {
+  height: 30px;
+  width: 30px;
+}
+main>div.first-part>form{
+  padding: 40px;
+}
+main form div#suggestions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main form div#suggestions:hover{
+  cursor: pointer;
+}
+main form div#suggestions>p{
+  padding-right: 450px;
+}
+main form>div.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main form input{
+  border-radius: 15px; 
+  margin-right: 10px;
+  height: 35px;
+  width: 500px;
+}
+main div.where{
+  padding-top: 70px; 
+  padding-bottom: 70px;
+}
+ main div.where h1{
+   padding-bottom:50px ;
+ }
+main ul.list-unstyled>li{
+  padding-bottom:20px;
+}
+main>div.first-part{
+  background-image: url('https://hd2.tudocdn.net/672652?w=1200&h=900');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: rgb(230, 230, 230);
+  }
+
+  nav#navbar {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 220, 1) 50%, rgba(245, 245, 220, 1) 100%);
+  }
+
+  .btn-primary {
+    background: white;
+    color: black;
+    border-color: black; 
+  }
+  .btn-primary:hover{
+    color:gold;
+    background-color: white;
+    border: 1px solid gold;
+  }
+
+  ul#dropdown {
+    background-color: rgb(255, 255, 255); 
+  }
+
+  ul#dropdown>li>a {
+    color:black;
+  }
+
+  ul#dropdown>li>a:hover {
+    color: gold; 
+  }
+  header a.nav-link:hover {
+    color: gold;
+  }
+  header a#nav-Airport-served:hover,header a#nav-Airport-us:hover{
+    color: gold; 
+  }
+  header a#nav-home:hover {
+    color: gold; 
+  }
+
+  header a#nav-home:hover {
+    color: gold; 
+  }
+
+  footer h2, footer label {
+    color: black;
+  }
+  footer {
+    padding-top: 30px;
+    background-image: url('https://img.freepik.com/premium-vector/gray-world-map-white-background_42634-10.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  footer div#contact p{
+    color:black;
+  }
+  footer>div.container>div.row input{
+    border: 1px solid black;
+  }
+  footer>div.container>div.row input:hover{
+    border: 1px solid gold;
+  }
+  main form div#suggestions>p{
+    color: white;
+  }
+  main form div#suggestions>p:hover{
+    color: gold;
+  }
+  main div.where h1{
+    color:#cfb107;
+  }
+  main div.where p{
+    color:white;
+  }
+  main ul.list-unstyled>li{
+    color:black;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: rgb(42, 42, 42);
+    background: radial-gradient(circle, rgba(42, 42, 42, 1) 38%, rgba(83, 83, 76, 1) 78%);
+  }
+
+  nav#navbar {
+    background: rgb(64, 57, 57);
+    background: linear-gradient(90deg, rgba(64, 57, 57, 1) 33%, rgba(144, 144, 105, 0) 70%, rgba(190, 188, 20, 0.6474964985994398) 87%);
+  }
+
+  .btn-primary {
+    background: rgb(175, 175, 17);
+    background: radial-gradient(circle, rgba(175, 175, 17, 1) 38%, rgba(246, 246, 7, 1) 100%);
+    color: black;
+    border-color: rgb(175, 175, 17);
+    border-color: radial-gradient(circle, rgba(175, 175, 17, 1) 38%, rgba(246, 246, 7, 1) 100%);
+  }
+
+  ul#dropdown {
+    background-color: grey;
+  }
+
+  ul#dropdown>li>a {
+    color: black;
+  }
+
+  ul#dropdown>li>a:hover {
+    color: gold;
+  }
+  header a.nav-link:hover{
+    color: gold;
+  }
+  header a#nav-Airport-served:hover,header a#nav-Airport-us:hover{
+    color: gold; 
+  }
+  header a#nav-home:hover {
+    color: gold; 
+  }
+  footer h2, footer label {
+    color: whitesmoke;
+  }
+  footer {
+    padding-top: 30px;
+    background-image: url('https://img.freepik.com/premium-photo/world-map-black-background-generative-ai_151355-19307.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  main form div#suggestions>p{
+    color: white;    
+  }
+  main form div#suggestions>p:hover{
+    color: gold;
+  }
+  main div.where h1{
+    color:gold;
+  }
+  main div.where p{
+    color:white;
+  }
+  main h1{
+    color:gold;
+  }
+  main ul.list-unstyled>li{
+    color:white;
+  }
+}

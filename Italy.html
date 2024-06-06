@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Progetto a gruppi - HTML/CSS/JS</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+
+  <!-- Personal styles and scripts -->
+  <link href="css/County.css" rel="stylesheet" type="text/css" />
+  <script src="js/country.js"></script>
+
+  <link rel="icon" href="logo.png" />
+  <meta name="author" value="Igor Tsaturyan">
+  <meta name="author" value="Nicolo Pansardi">
+  <meta name="description" value="Vip travel agency">
+  <meta name="keywords" value="Vip travel lounge assist fly jet ">
+  <meta name="og:title" value="Vip Travel Agency">
+  <meta name="og:type" value="website">
+  <meta name="og:image" value="imgloog.png">
+  <meta name="og:url" value="https://www.VipTravelAgency.it/home.html">
+  <meta name="og:description" value="Vip Travel Agency">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <img class="navbar-brand" href="index.html" src="logo.png">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-home" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" id="dropdown">
+                <li><a class="dropdown-item" href="MettAndAssist.html">Meet and assist</a></li>
+                <li><a class="dropdown-item" href="Vip lounge.html">Vip Lounge </a></li>
+                <li><a class="dropdown-item" href="VipTransport.html">Vip Transport </a></li>
+                <li><a class="dropdown-item" href="congierge.html">Congierge </a></li>
+                <li><a class="dropdown-item" href="chauffeur.html">Chauffeur </a></li>
+                <li><a class="dropdown-item" href="fast track.html">Fast Track </a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-Airport-served" aria-current="page" href="Airport served.html">Airport
+                served </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-Airport-us" aria-current="page" href="about us.html">About Us </a>
+            </li>
+            </li>
+          </ul>
+          <div>
+            <p>VipTravelAgency@gmail.com</p>
+            <p>+39 375 603 5006</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="text-center Intestation">
+      <h1 class="mt-5 mb-5">Vip Services </h1>
+      <label for="italian-airports" class="mb-5">Select an Italian Airport:</label>
+      <select id="airports">
+        <option value="Rome">ROME – LEONARDO DA VINCI-FIUMICINO AIRPORT (FCO)
+        </option>
+        <option value="Olbia">OLBIA – OLBIA COSTA SMERALDA AIRPORT (OLB)
+        </option>
+        <option value="Venice">VENICE – VENICE MARCO POLO AIRPORT (VCE)
+        </option>
+        <option value="Trieste">TRIESTE – FRIULI VENEZIA GIULIA AIRPORT (TRS)
+        </option>
+        <option value="Trapani">TRAPANI – VINCENZO FLORIO AIRPORT TRAPANI–BIRGI AIRPORT (TPS)
+        </option>
+        <option value="Venice">TURIN – TURIN CASELLE AIRPORT (TRN)
+        </option>
+        <option value="Milan">MILAN – MALPENSA AIRPORT (MXP)
+        </option>
+        <option value="Verona">VERONA – VERONA VILLAFRANCA AIRPORT (VRN)
+        </option>
+      </select>
+      <button id="apply-btn" class="btn btn-primary"> Apply </button>
+    </div>
+    <div class="info-service mb-5">
+      <div class="container">
+        <h2 id="service-offer-title">Service offer in : </h2>
+        <div class="row service">
+          <div class="mt-5 info-space col-4">
+            <div class="first-part">
+              <img src="aereo1.svg" alt="plane">
+              <h4>Arrival </h4>
+            </div>
+            <div class="mb-4">
+              <h5>One passeger: 150 euro </h5>
+              <h5>More than 2 passeger : 250 euro </h5>
+            </div>
+            <ul>
+              <li> Our agent meets the passengers at the end of the airbridge or at the entrance to the terminal with a
+                personalized name board</li>
+              <li>Escorting through passport control and customs using Fast Track Lanes</li>
+              <li>Escorting to baggage claim hall, help with the luggage if porter service is pre-booked</li>
+              <li>Escorting to onward mode of transportation or arrival hall, up to the clients’ needs</li>
+            </ul>
+             <a class="btn btn-primary mt-3 mb-3" href="book.html">BOOK </a>
+          </div>
+          <div class="mt-5 info-space col-4">
+            <div class="first-part">
+              <img src="plane2.svg" alt="plane">
+              <h4>Departure </h4>
+            </div>
+            <div class="mb-4">
+              <h5>One passeger: 150 euro </h5>
+              <h5>More than 2 passeger : 250 euro </h5>
+            </div>
+            <ul>
+              <li>Our agent and passenger’s driver/lead passenger get in contact to coordinate the drop-off time and
+                place prior to their arrival</li>
+              <li>Meeting passengers curbside by the agent and baggage porter if pre-booked</li>
+              <li>Escorting through all check-in and security formalities using Fast Track Lanes</li>
+              <li>Escorting to the Departure Lounge if arranged and/or to the boarding gate</li>
+            </ul>
+            <a class="btn btn-primary mt-3 mb-3" href="book.html">BOOK </a>
+          </div>
+          <div class="mt-5 info-space col-4">
+            <div class="first-part">
+              <img src="plane3.svg" alt="plane">
+              <h4>Transit </h4>
+            </div>
+            <div class="mb-4">
+              <h5>One passeger: 150 euro </h5>
+              <h5>More than 2 passeger : 250 euro </h5>
+            </div>
+            <ul>
+              <li> Our agent meets the passengers at the end of the airbridge or at the entrance to the terminal with a
+                personalized name board</li>
+              <li>Escorting to baggage claim if needed, porter service if pre-booked</li>
+              <li>Escorting through immigration and security formalities using Fast Track Lanes</li>
+              <li>Escorting to the Departure Lounge if arranged and/or to the boarding gate</li>
+            </ul>
+            <a class="btn btn-primary mt-3 mb-3" href="book.html">BOOK </a>
+          </div>
+          <div class="hr">
+            <hr>
+          </div>
+          <div class="row Additional">
+            <div class="col-6 text-center">
+              <h3> ADDITIONAL SERVICES </h3>
+              <ul>
+                <li> Vip Transport </li>
+                <li>Congiere </li>
+                <li>Chauffeur </li>
+                <li>Fast Track</li>
+              </ul>
+            </div>
+            <div class="col-6 Terms">
+              <a href="pdf.html" class="btn btn-primary">TERMS & CONDITIONS </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h2> Get in touch </h2>
+          <form method="post" action="">
+            <div>
+              <label for="first-name"></label>
+              <input type="text" name="first-name" class="form-control" placeholder="First name" required>
+            </div>
+            <div>
+              <label for="Phone-Number"></label>
+              <input type="number" name="Phone-Number" class="form-control" placeholder="Phone number" required>
+            </div>
+            <div>
+              <label for="Email" class="form-label"></label>
+              <input type="email" name="Email" placeholder="Email" class="form-control" required>
+            </div>
+            <div>
+              <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-8" id="contact">
+          <h2>Contact</h2>
+          <div>
+            <img src="watsapp.svg">
+            <p>+39 375 603 5006</p>
+          </div>
+          <div>
+            <img src="watsapp.svg">
+            <p>+39 339 212 3751</p>
+          </div>
+          <div>
+            <img src="email.png">
+            <p>@vipTravelAgency.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
